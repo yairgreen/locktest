@@ -1,0 +1,13 @@
+[project]
+name = "adstxt"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[dependency-groups]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
